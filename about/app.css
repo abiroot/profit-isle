@@ -1,0 +1,200 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+.btn-active {
+    background-color: transparent;
+    outline: 2px solid #44BA9C;
+    color: #ffffff;
+}
+
+.btn-hover {
+    color: white;
+    background-color: #44BA9C;
+}
+
+.btn-hover:hover {
+    color: white;
+    background-color: transparent;
+    outline: 2px solid #44BA9C;
+}
+
+.btn-active:hover {
+    background-color: #44BA9C;
+    color: #ffffff;
+}
+
+.nav-link {
+    color: #ffffff;
+    font-weight: 800;
+    padding-bottom: 5px;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+    padding-bottom: 0px;
+    border-bottom: 2px solid #44BA9C;
+}
+
+.nav-item:hover {
+    color: #ffffff;
+    font-weight: 800;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.header-container {
+    background-image: url("./assets//about\ banner.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+    /* position: relative; */
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.bold-500 {
+    font-weight: 500;
+}
+
+.landing-page-title {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+}
+
+.linear-gradient {
+    background-image: linear-gradient(to bottom, #022B46, #44BA9C);
+    height: 300px;
+}
+
+.cards-collection {
+    position: relative;
+    bottom: 200px;
+}
+
+h2 {
+    font-weight: 800;
+}
+
+.section-2-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+h3 {
+    color: #022B46;
+    font-weight: 600;
+}
+
+h6 {
+    color: #44BA9C;
+}
+
+p {
+    color: #022B46;
+}
+
+.section-2 .card {
+    border-radius: 20px;
+    min-height: 500px;
+}
+
+.middle-card {
+    background-color: #44BA9C;
+}
+
+.middle-card p {
+    color: #ffffff;
+}
+
+.section-3 h2 {
+    color: #022B46;
+}
+
+.blue-text {
+    color: #022B46;
+}
+
+.gradient-background2 {
+    background-color: #44BA9C;
+}
+
+.card {
+    color: #022B46;
+    border-radius: 20px;
+}
+
+.blue-container {
+    background-color: #022B46;
+    color: #ffffff;
+    width: 90%;
+    border-radius: 10px;
+    position: relative;
+    left: 5%;
+    top: -30px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.bold-text {
+    font-weight: 600;
+}
+
+.gradient-background {
+    background-image: linear-gradient(to right, #022B46, #44BA9C);
+}
+
+.section-5-blue-container {
+    background-color: #022B46;
+    color: #ffffff;
+}
+
+.section-5 h6 {
+    color: #ffffff;
+}
+
+.white-text {
+    color: #ffffff;
+}
+
+.history-logo {
+    position: relative;
+    top: -100px;
+}
+
+.history-img {
+    width: 40%;
+}
+
+@media (max-width:900px) {
+    .history-img {
+        width: 100%;
+    }
+}
+
+.low-opacity {
+    font-size: 14px;
+    font-weight: normal;
+    opacity: 70%;
+}
+
+.white-color {
+    color: white;
+    text-decoration: none;
+}
+
+.white-color:hover {
+    color: white;
+    text-decoration: none;
+}

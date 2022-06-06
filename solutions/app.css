@@ -1,0 +1,104 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+.btn-active {
+    background-color: transparent;
+    outline: 2px solid #44BA9C;
+    color: #ffffff;
+}
+
+.btn-hover {
+    color: white;
+    background-color: #44BA9C;
+}
+
+.btn-hover:hover {
+    color: white;
+    background-color: transparent;
+    outline: 2px solid #44BA9C;
+}
+
+.btn-active:hover {
+    background-color: #44BA9C;
+    color: #ffffff;
+}
+
+.nav-link {
+    color: #ffffff;
+    font-weight: 800;
+    padding-bottom: 5px;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+    padding-bottom: 0px;
+    border-bottom: 2px solid #44BA9C;
+}
+
+.nav-item:hover {
+    color: #ffffff;
+    font-weight: 800;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.header-container {
+    background-image: url("./assets//solutions\ banner.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+.bold-500 {
+    font-weight: 600;
+}
+
+.landing-page-title {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+}
+
+.linear-background {
+    background-image: linear-gradient(to bottom, #022B46, #44BA9C);
+}
+
+.blue-text {
+    color: #022B46;
+}
+
+.blue-bg {
+    background-color: #022B46;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+.gradient-background {
+    background-image: linear-gradient(to right, #022B46, #44BA9C);
+}
+
+.white-color {
+    color: white;
+    text-decoration: none;
+}
+
+.white-color:hover {
+    color: white;
+    text-decoration: none;
+}

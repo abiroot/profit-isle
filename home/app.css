@@ -1,0 +1,309 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+.btn-active {
+    background-color: transparent;
+    outline: 2px solid #44BA9C;
+    color: #ffffff;
+}
+
+.btn-hover {
+    color: white;
+    background-color: #44BA9C;
+}
+
+.btn-hover:hover {
+    color: white;
+    background-color: transparent;
+    outline: 2px solid #44BA9C;
+}
+
+.btn-active:hover {
+    background-color: #44BA9C;
+    color: #ffffff;
+}
+
+.nav-link {
+    color: #ffffff;
+    font-weight: 800;
+    padding-bottom: 5px;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+    padding-bottom: 0px;
+    border-bottom: 2px solid #44BA9C;
+}
+
+.nav-item:hover {
+    color: #ffffff;
+    font-weight: 800;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.header-container {
+    background-image: url("./assets/Landing\ Banner.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 950px;
+    position: relative;
+}
+
+.landing-page-title {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+}
+
+.bold-500 {
+    font-weight: 500;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+h2 {
+    font-weight: 800;
+}
+
+.bold-text {
+    font-weight: 600;
+}
+
+.beyond-average-image {
+    background-image: url('./assets//Beyond\ Average\ Background.jpg');
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.absolute-position {
+    position: absolute;
+    top: 10%;
+}
+
+.card {
+    border-radius: 35px;
+    background-color: #022B46;
+}
+
+.card-main {
+    position: relative;
+}
+
+.card-position {
+    position: absolute;
+    top: 28%;
+    left: 50%;
+}
+
+.messy-data {
+    position: relative;
+    top: -150px;
+}
+
+@media(max-width:900px) {
+    .card-position {
+        top: 23%;
+        left: 48%;
+    }
+    .messy-data {
+        top: -130px;
+    }
+    .absolute-position2 {
+        width: 80% !important;
+    }
+}
+
+.benefits-image {
+    background-image: url("./assets//Benefits\ background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    position: relative;
+}
+
+.benefits-text {
+    position: absolute;
+    top: 33%;
+    left: 40%;
+}
+
+.centered-div {
+    position: absolute;
+    top: 23%;
+}
+
+@media(max-width:900px) {
+    .benefits-text {
+        top: 23%;
+    }
+    .benefits-text h2 {
+        font-size: 16px;
+    }
+    .benefits-text p {
+        font-size: 12px;
+    }
+}
+
+.section-4 .blue-text {
+    color: #022B46;
+}
+
+.section-4-1 p {
+    color: #ffffff
+}
+
+.container-position {
+    position: relative;
+}
+
+.text-position {
+    position: absolute;
+    top: 25%;
+    left: 14%;
+}
+
+@media(max-width:900px) {
+    .text-position {
+        top: 5%;
+        left: 26%;
+        font-size: 22px;
+    }
+}
+
+.wrote-the-book-bg {
+    background-image: url("./assets//book.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    color: #ffffff;
+}
+
+.padding-text {
+    padding-top: 230px;
+}
+
+.section-4-1 .green-text {
+    color: #44BA9C;
+}
+
+
+/* section5  */
+
+.section-5 .white-paragraph {
+    color: #ffffff;
+}
+
+.section-5 .green-text {
+    color: #44BA9C;
+}
+
+.content {
+    background-color: #44BA9C;
+}
+
+.white-container {
+    height: 100px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    position: relative;
+}
+
+.white-container img {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width :900px) {
+    .white-container {
+        height: 200px;
+    }
+}
+
+.white-box-content {
+    background-color: #ffffff;
+    color: #022B46;
+    border-radius: 10px;
+}
+
+.blue-container {
+    background-color: #022B46;
+    color: #ffffff;
+    width: 90%;
+    border-radius: 10px;
+    position: relative;
+    left: 5%;
+    top: -30px;
+}
+
+.section-5 h5 {
+    font-weight: 800;
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.green-box {
+    background-color: #44BA9C;
+}
+
+.blue-box {
+    background-color: #022B46;
+}
+
+
+/* section-6 */
+
+.gradient-background {
+    background-image: linear-gradient(to right, #022B46, #44BA9C);
+}
+
+h5,
+h6 {
+    font-weight: 600;
+}
+
+.section-6-blue-container {
+    background-color: #022B46;
+    color: #ffffff;
+}
+
+.benefit-img {
+    width: 50%;
+}
+
+@media (max-width:900px) {
+    .benefit-img {
+        width: 100%;
+    }
+}
+
+.full-height {
+    height: 100%;
+}
+
+.white-color {
+    color: white;
+    text-decoration: none;
+}
+
+.white-color:hover {
+    color: white;
+    text-decoration: none;
+}
