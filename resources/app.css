@@ -48,6 +48,12 @@
         border-bottom: 2px solid #44BA9C;
     }
     
+    .nav-link.active {
+        color: #ffffff;
+        padding-bottom: 0px;
+        border-bottom: 2px solid #44BA9C;
+    }
+    
     .nav-item:hover {
         color: #ffffff;
         font-weight: 800;
@@ -64,6 +70,11 @@
         background-size: cover;
         height: 100vh;
         position: relative;
+    }
+    
+    h1 {
+        font-weight: 900;
+        font-size: 3rem;
     }
     
     .bold-500 {

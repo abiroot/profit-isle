@@ -37,6 +37,12 @@ body {
     border-bottom: 2px solid #44BA9C;
 }
 
+.nav-link.active {
+    color: #ffffff;
+    padding-bottom: 0px;
+    border-bottom: 2px solid #44BA9C;
+}
+
 .nav-item:hover {
     color: #ffffff;
     font-weight: 800;
@@ -214,5 +220,95 @@ p {
 @media(max-width:900px) {
     .image-logo {
         width: 100%;
+    }
+}
+
+#timeline-container {
+    overflow: auto;
+    padding: 60px 0;
+}
+
+#timeline-container .inner-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#timeline-container .inner-container .heading {
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+    color: white;
+    margin-top: 0;
+    /* background-image: url(./assets/Mask\ Group\ 65.jpg); */
+}
+
+.timeline {
+    margin: 0 auto;
+    position: relative;
+    left: 180px;
+    width: 80%;
+    max-width: 900px;
+    margin-top: 16px;
+    margin-left: 5%;
+}
+
+.timeline-item {
+    color: #022B46;
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 1rem 1.5rem 13rem 1.5rem;
+    border-left: 4px solid #022B46;
+    position: relative;
+    list-style-type: none;
+    --item-width: calc(100%);
+}
+
+.timeline-item::after {
+    content: attr(data-date);
+    position: absolute;
+    right: calc(var(--item-width) + 40px);
+    top: 16px;
+    float: right;
+    font-weight: bold;
+    white-space: nowrap;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #44BA9C;
+}
+
+.timeline-item::before {
+    content: "";
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    background-color: #022B46;
+    position: absolute;
+    left: -10px;
+    top: 21px;
+}
+
+.timeline-item:last-child {
+    border-bottom: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .timeline {
+        position: relative;
+        left: 55px;
+    }
+    .timeline .timeline-item {
+        font-size: 1.1rem;
+    }
+    .timeline .timeline-item::after {
+        right: calc(var(--item-width) + 30px);
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .timeline-item {
+        padding: 1rem 1.5rem 1rem 0.5rem;
+    }
+    .timeline-item::after {
+        right: calc(var(--item-width) + 20px);
     }
 }
