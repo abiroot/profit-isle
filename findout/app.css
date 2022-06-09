@@ -57,8 +57,15 @@ body {
 
 .landing-page-title {
     position: absolute;
-    top: 40%;
-    left: 15%;
+    top: 48%;
+    left: 40%;
+}
+
+@media(max-width:900px) {
+    .landing-page-title {
+        top: 40%;
+        left: 15%;
+    }
 }
 
 .bold-500 {

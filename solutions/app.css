@@ -80,6 +80,11 @@ h1 {
     background-image: linear-gradient(to bottom, #022B46, #44BA9C);
 }
 
+.linear-background2 {
+    background-image: linear-gradient(to bottom, #022B46, #44BA9C);
+    height: 900px;
+}
+
 .blue-text {
     color: #022B46;
 }
@@ -168,4 +173,15 @@ h3 {
         top: 270px;
         left: 0px;
     }
+}
+
+.green-text {
+    color: #44BA9C;
+    font-weight: bolder;
+}
+
+.position-text-3 {
+    position: absolute;
+    top: -100px;
+    left: 100px;
 }
