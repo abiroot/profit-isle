@@ -189,3 +189,7 @@ h3 {
     top: -100px;
     left: 100px;
 }
+
+.underline-text {
+    border-bottom: 3px solid #44BA9C;
+}

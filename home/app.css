@@ -242,6 +242,7 @@ h2 {
 
 .content {
     background-color: #44BA9C;
+    min-height: 700px;
 }
 
 .white-container {
@@ -276,7 +277,7 @@ h2 {
     border-radius: 10px;
     position: relative;
     left: 5%;
-    top: -30px;
+    top: -140px;
 }
 
 .section-5 h5 {
