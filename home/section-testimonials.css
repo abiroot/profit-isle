@@ -1,0 +1,33 @@
+.section-testimonials .green-text {
+    color: #44BA9C;
+}
+
+.section-testimonials {
+    background-color: #44BA9C;
+    min-height: 700px;
+}
+
+.section-testimonials .white-container {
+    height: 80px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    position: relative;
+}
+
+.section-testimonials .white-container img {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width :900px) {
+    .section-testimonials .white-container {
+        height: 200px;
+    }
+}
+
+.section-testimonials .white-box-content {
+    background-color: #ffffff;
+    color: #022B46;
+    border-radius: 10px;
+}

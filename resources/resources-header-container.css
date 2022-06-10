@@ -1,0 +1,24 @@
+.resources-header-container {
+    background-image: url("./assets//Resources\ Banners.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.resources-header-container .landing-page-title {
+    position: absolute;
+    top: 45%;
+    left: 15%;
+}
+
+.resources-header-container .white-color {
+    color: white;
+    text-decoration: none;
+}
+
+@media(max-width:900px) {
+    .resources-header-container .navbar-brand {
+        width: 50%;
+    }
+}

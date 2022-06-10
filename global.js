@@ -1,11 +1,11 @@
 //sticky navbar 
 // location.reload();
 
-window.scroll({
-    top: 0,
-    left: 0,
-    behavior: 'smooth',
-});
+// window.scroll({
+//     top: 0,
+//     left: 0,
+//     behavior: 'smooth',
+// });
 document.addEventListener("DOMContentLoaded", function() {
     window.addEventListener('scroll', function() {
         if (window.scrollY > 150) {

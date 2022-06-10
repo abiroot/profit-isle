@@ -1,0 +1,29 @@
+.solutions-header-container {
+    background-image: url("./assets//solutions\ banner.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.solutions-header-container .landing-page-title {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+}
+
+.solutions-header-container .white-color {
+    color: white;
+    text-decoration: none;
+}
+
+@media(max-width:900px) {
+    .solutions-header-container .landing-page-title {
+        position: absolute;
+        top: 40%;
+        left: 7%;
+    }
+    .solutions-header-container .navbar-brand {
+        width: 50%;
+    }
+}

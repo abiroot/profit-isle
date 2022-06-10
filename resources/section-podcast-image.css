@@ -1,0 +1,9 @@
+.section-poadcast-image .podcasts-img {
+    width: 40%;
+}
+
+@media (max-width:900px) {
+    .section-poadcast-image .podcasts-img {
+        width: 100%;
+    }
+}

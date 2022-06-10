@@ -1,0 +1,28 @@
+.findout-header-container {
+    background-image: url("./assets/contact\ us\ banner.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 950px;
+    position: relative;
+}
+
+.findout-header-container .landing-page-title {
+    position: absolute;
+    top: 48%;
+    left: 40%;
+}
+
+.findout-header-container .white-color {
+    color: white;
+    text-decoration: none;
+}
+
+@media(max-width:900px) {
+    .findout-header-container .landing-page-title {
+        top: 40%;
+        left: 15%;
+    }
+    .findout-header-container .navbar-brand {
+        width: 50%;
+    }
+}

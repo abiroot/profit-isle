@@ -1,0 +1,37 @@
+.section-unearth-loop {
+    background-image: url("./assets//Benefits\ background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    position: relative;
+}
+
+.section-unearth-loop .centered-div {
+    position: absolute;
+    top: 23%;
+}
+
+@media(max-width:900px) {
+    .section-unearth-loop .benefits-image {
+        height: 550px;
+    }
+}
+
+.section-unearth-loop .benefits-text {
+    position: absolute;
+    top: 33%;
+    left: 40%;
+}
+
+@media(max-width:900px) {
+    .section-unearth-loop .benefits-text {
+        top: 23%;
+    }
+    .section-unearth-loop .benefits-text h2 {
+        font-size: 16px;
+    }
+    .section-unearth-loop .benefits-text p {
+        font-size: 12px;
+    }
+}

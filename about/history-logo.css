@@ -1,0 +1,14 @@
+.history-logo {
+    position: relative;
+    top: -100px;
+}
+
+.history-img {
+    width: 40%;
+}
+
+@media (max-width:900px) {
+    .history-img {
+        width: 100%;
+    }
+}

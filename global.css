@@ -1,7 +1,110 @@
-/* .nav-colored {
-    background-color: #000;
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
 }
 
-.nav-transparent {
+.btn-active {
     background-color: transparent;
-} */
+    outline: 2px solid #44BA9C;
+    color: #ffffff;
+}
+
+.btn-hover {
+    color: white;
+    background-color: #44BA9C;
+}
+
+.btn-hover:hover {
+    color: white;
+    background-color: transparent;
+    outline: 2px solid #44BA9C;
+}
+
+.btn-hover2 {
+    color: white;
+    background-color: #44BA9C;
+}
+
+.btn-hover2:hover {
+    color: #44BA9C;
+    background-color: transparent;
+    outline: 2px solid #44BA9C;
+}
+
+.btn-active:hover {
+    background-color: #44BA9C;
+    color: #ffffff;
+}
+
+.nav-link {
+    color: #ffffff;
+    font-weight: 800;
+    padding-bottom: 5px;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+    padding-bottom: 0px;
+    border-bottom: 2px solid #44BA9C;
+}
+
+.nav-link.active {
+    color: #ffffff;
+    padding-bottom: 0px;
+    border-bottom: 2px solid #44BA9C;
+}
+
+.nav-item:hover {
+    color: #ffffff;
+    font-weight: 800;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggler {
+    border-color: #44BA9C;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(68,186,156)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.bold-500 {
+    font-weight: 500;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+h2 {
+    font-weight: 800;
+}
+
+.bold-text {
+    font-weight: 500;
+}
+
+.bold-800 {
+    font-weight: 800;
+}
+
+.blue-text {
+    color: #ffffff;
+}
+
+#container1,
+#container2,
+#container3 {
+    cursor: pointer;
+}
+
+#container1:hover,
+#container2:hover,
+#container3:hover {
+    opacity: 1;
+}

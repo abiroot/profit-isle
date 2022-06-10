@@ -1,0 +1,17 @@
+.section-wrote-the-book {
+    background-image: url("./assets//book.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    color: #ffffff;
+}
+
+.section-wrote-the-book .padding-text {
+    padding-top: 230px;
+}
+
+.section-wrote-the-book .green-text {
+    color: #44BA9C;
+    font-weight: 800;
+}
