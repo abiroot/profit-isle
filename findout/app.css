@@ -69,7 +69,11 @@ body {
 }
 
 .bold-500 {
-    font-weight: 600;
+    font-weight: 500;
+}
+
+.bold-800 {
+    font-weight: 800;
 }
 
 h1 {

@@ -67,7 +67,11 @@ h1 {
 }
 
 .bold-500 {
-    font-weight: 600;
+    font-weight: 500;
+}
+
+.bold-800 {
+    font-weight: 800;
 }
 
 .landing-page-title {
