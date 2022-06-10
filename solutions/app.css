@@ -124,13 +124,13 @@ h3 {
 }
 
 @media(max-width:900px) {
-    .image-logo {
-        width: 100%;
-    }
     .landing-page-title {
         position: absolute;
         top: 40%;
         left: 7%;
+    }
+    .navbar-brand {
+        width: 50%;
     }
 }
 

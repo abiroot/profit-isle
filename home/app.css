@@ -337,8 +337,8 @@ h6 {
 }
 
 @media(max-width:900px) {
-    .image-logo {
-        width: 100%;
+    .navbar-brand {
+        width: 50%;
     }
 }
 
@@ -359,4 +359,16 @@ h6 {
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     cursor: pointer;
+}
+
+#container1,
+#container2,
+#container3 {
+    cursor: pointer;
+}
+
+#container1:hover,
+#container2:hover,
+#container3:hover {
+    opacity: 1;
 }

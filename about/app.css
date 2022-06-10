@@ -218,8 +218,8 @@ p {
 }
 
 @media(max-width:900px) {
-    .image-logo {
-        width: 100%;
+    .navbar-brand {
+        width: 50%;
     }
 }
 
