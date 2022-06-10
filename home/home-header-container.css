@@ -21,4 +21,9 @@
     .home-header-container .navbar-brand {
         width: 50%;
     }
+    .home-header-container .landing-page-title {
+        position: absolute;
+        top: 36%;
+        left: 15%;
+    }
 }

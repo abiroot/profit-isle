@@ -97,12 +97,6 @@ h2 {
     color: #ffffff;
 }
 
-#container1,
-#container2,
-#container3 {
-    cursor: pointer;
-}
-
 #container1:hover,
 #container2:hover,
 #container3:hover {

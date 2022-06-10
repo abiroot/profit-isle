@@ -1,27 +1,27 @@
-.About-header-container {
+.about-header-container {
     background-image: url("./assets//about\ banner.jpg");
     background-position: center;
     background-size: cover;
     height: 1000px;
 }
 
-.About-header-container .landing-page-title {
+.about-header-container .landing-page-title {
     position: absolute;
     top: 40%;
     left: 15%;
 }
 
-.About-header-container .white-color {
+.about-header-container .white-color {
     color: white;
     text-decoration: none;
 }
 
-.About-header-container .custom-toggler.navbar-toggler {
+.about-header-container .custom-toggler.navbar-toggler {
     border-color: lightgreen;
 }
 
 @media(max-width:900px) {
-    .About-header-container .navbar-brand {
+    .about-header-container .navbar-brand {
         width: 50%;
     }
 }
