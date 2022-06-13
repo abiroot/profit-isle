@@ -17,6 +17,15 @@
     /* background-image: url(./assets/Mask\ Group\ 65.jpg); */
 }
 
+
+/* .section-timeline {
+    background-image: url("./assets/timeline-background.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-right: 100px;
+} */
+
 .section-timeline .timeline {
     margin: 0 auto;
     position: relative;

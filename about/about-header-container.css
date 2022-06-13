@@ -24,4 +24,7 @@
     .about-header-container .navbar-brand {
         width: 50%;
     }
+    .about-header-container .landing-page-title {
+        left: 5%;
+    }
 }

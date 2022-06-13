@@ -21,4 +21,8 @@
     .resources-header-container .navbar-brand {
         width: 50%;
     }
+    .resources-header-container .landing-page-title {
+        top: 30%;
+        left: 10%;
+    }
 }
