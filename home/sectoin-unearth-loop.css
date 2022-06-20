@@ -4,12 +4,7 @@
     background-position: center;
     background-size: cover;
     height: 800px;
-    position: relative;
-}
-
-.section-unearth-loop .centered-div {
-    position: absolute;
-    top: 23%;
+    overflow: auto;
 }
 
 @media(max-width:900px) {
@@ -19,9 +14,17 @@
 }
 
 .section-unearth-loop .benefits-text {
-    position: absolute;
-    top: 33%;
-    left: 40%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 26%;
+}
+
+.section-unearth-loop .benefits-text h2 {
+    font-size: 1.5rem;
+}
+
+.section-unearth-loop .benefits-text p {
+    font-size: 0.9rem;
 }
 
 @media(max-width:900px) {
