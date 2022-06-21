@@ -7,6 +7,14 @@
     min-height: 700px;
 }
 
+.section-testimonials .testimonial {
+    display: none;
+}
+
+.section-testimonials .testimonial.active-section {
+    display: block;
+}
+
 .section-testimonials .white-container {
     min-height: 100px;
     display: flex;
